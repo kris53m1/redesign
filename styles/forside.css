@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+main {
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#service_and_about {
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#service_and_about {
+    background: #d9d9d9;
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #splashVideo {
+        position: fixed;
+        z-index: -1;
+        background: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+
+    }
+
+    .section_wrapper2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+
+    }
+
+    /*
+    #splashVideo {
+        position: fixed;
+        overflow: hidden;
+        z-index: -100;
+    }
+*/
+
+    #splashVideo {
+        /*
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: 25% 10%;
+        max-width: none;
+        z-index: 1;
+
+
+*/
+        width: 100%;
+        height: 100vh;
+        background-image: url(billeder/hipsterstylephotoshop.jpg);
+        background-size: cover;
+        background-position: 50% 10%;
+        max-width: none;
+
+
+    }
+
+    #splashVideo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
