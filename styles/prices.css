@@ -1,0 +1,8 @@
+.col {
+    top: 10vw;
+    left: 10vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: aqua;
+    position: absolute;
+}
