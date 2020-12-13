@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#prices {
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(billeder/Luz_Background.jpg);
+
+}
+
+.col {
+    width: 5vw;
+    height: 5vw;
+    background-color: aqua;
+}
+
+#box1 {
+    left: 10vw;
+    position: absolute;
+}
+
+#box2 {
+    left: 20vw;
+    position: absolute;
+}
+
+#box3 {
+    left: 30vw;
+
+    position: absolute;
+}
+
+#home_menu {
+    text-align: center;
+    grid-column-start: 1;
+}
+
+#contact_menu {
+    text-align: center;
+    grid-column-start: 2;
+}
+
+#prices_menu {
+    text-align: center;
+    grid-column-start: 4;
+}
+
+#gallery_menu {
+    text-align: center;
+    grid-column-start: 5;
+}
