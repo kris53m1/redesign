@@ -1,5 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #prices {
+    width: 100vw;
+    height: 56.25vw;
     background-image: url(billeder/Luz_Background.jpg);
+
 }
 
 .col {
@@ -22,4 +32,24 @@
     left: 30vw;
 
     position: absolute;
+}
+
+#home_menu {
+    text-align: center;
+    grid-column-start: 1;
+}
+
+#contact_menu {
+    text-align: center;
+    grid-column-start: 2;
+}
+
+#prices_menu {
+    text-align: center;
+    grid-column-start: 4;
+}
+
+#gallery_menu {
+    text-align: center;
+    grid-column-start: 5;
 }
