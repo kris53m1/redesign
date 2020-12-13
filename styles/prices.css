@@ -1,24 +1,25 @@
-.col {
+#prices {
+    background-image: url(billeder/Luz_Background.jpg);
+}
 
+.col {
     width: 5vw;
     height: 5vw;
     background-color: aqua;
 }
 
 #box1 {
-    top: 10vw;
     left: 10vw;
     position: absolute;
 }
 
 #box2 {
-    top: 10vw;
     left: 20vw;
     position: absolute;
 }
 
 #box3 {
-    top: 10vw;
     left: 30vw;
+
     position: absolute;
 }
