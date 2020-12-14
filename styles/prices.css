@@ -9,7 +9,14 @@ body {
     width: 100vw;
     height: 56.25vw;
     background-image: url(billeder/Luz_Background.jpg);
+}
 
+#prices_wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .col {
@@ -19,37 +26,46 @@ body {
 }
 
 #box1 {
-    left: 10vw;
-    position: absolute;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 #box2 {
-    left: 20vw;
-    position: absolute;
+    grid-column-start: 2;
+    grid-row-start: 1;
 }
 
 #box3 {
-    left: 30vw;
-
-    position: absolute;
+    grid-column-start: 3;
+    grid-row-start: 1;
 }
 
-#home_menu {
-    text-align: center;
+#box4 {
     grid-column-start: 1;
+    grid-row-start: 2;
 }
 
-#contact_menu {
-    text-align: center;
+#box5 {
     grid-column-start: 2;
+    grid-row-start: 2;
 }
 
-#prices_menu {
-    text-align: center;
-    grid-column-start: 4;
+#box6 {
+    grid-column-start: 3;
+    grid-row-start: 2;
 }
 
-#gallery_menu {
-    text-align: center;
-    grid-column-start: 5;
+#box7 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#box8 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#box9 {
+    grid-column-start: 3;
+    grid-row-start: 3;
 }
